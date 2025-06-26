@@ -13,6 +13,8 @@ Use **Live Server** in VS Code to run the app locally in your browser.
 - 📱 Clean and responsive user interface
 - 🚀 Runs entirely in the browser (no backend needed)
 
+## MAKE SURE TO USE YOUTUBE API
+
 ## 🛠️ How to Run (Using VS Code Live Server)
 
 1. Clone the repository:
