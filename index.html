@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Emotion Based Music App</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+</head>
+<body>
+  <h1>🎵🎵Emotion Based Music App🎵🎵</h1>
+  <div id="simpleTxt">
+  <p>
+    Welcome to our Emotional Music Recommender — your personal companion for finding the perfect song to match your mood.Whether you're feeling happy, sad, relaxed, or energized, our smart system understands your emotions and suggests music <br><br>
+    SCROLL UP FOR RESULTS
+  </p>
+</div>
+  <div class="center-container">
+    <video id="webcam" autoplay muted></video>
+    <button id="detectBtn">Detect Emotion</button>
+  </div>
+
+  <div class="result-container">
+    <p id="emotionResult"></p>
+    <div id="musicRecommendation"></div>
+  </div>
+
+  <!-- Libraries -->
+  <script defer src="https://cdn.jsdelivr.net/npm/face-api.js@0.22.2/dist/face-api.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@3.9.0"></script>
+  <script defer src="script.js"></script>
+</body>
+</html>
